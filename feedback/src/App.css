@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900;1000&display=swap');
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+
+.App {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+Button {
+  background-color: blue;
+  transition: background-color 0.5s ease;
+}
+
+Button:hover {
+  background-color: red;
+}
+
+::-webkit-scrollbar {
+  display: none;
+} 
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey; 
+  border-radius: 3px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg,  #4D4B95 30%, #7C72C5 90%); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg,  #4D4B95 30%, #7C72C5 90%); 
+  border-radius: 10px;
+  cursor: pointer;
+}

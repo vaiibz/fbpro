@@ -1,0 +1,48 @@
+.image {
+    width: 400px;
+}
+.Icon_image{
+    width: 70px;
+    height: 70px;
+}
+.commit{
+    display: flex;
+}
+
+@media (max-width: 550px) {
+    .image {
+        width: 200px;
+    }
+    .Icon_image{
+        width: 40px;
+        height: 40px;
+        margin-left: -10px;
+    }
+    .commit{
+        display: none;
+    }
+}
+
+.input_field {
+    width: 85%;
+    padding: 7px 20px;
+    border-radius: 30px;
+    border: 2px solid #C7CBD6;
+}
+
+.custom-list {
+    list-style: disc;
+    /* or list-style-type: disc; */
+}
+.Login_Input{
+    border: 0px;
+    border-bottom: 1px solid #AAAAAA;
+    margin: 0.5rem 0;
+    padding: 5px 0;
+    width: 100%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
